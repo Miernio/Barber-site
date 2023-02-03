@@ -13,7 +13,7 @@ document.querySelectorAll(".nav-link").forEach(n=>
     }))
 
 
-const phone=document.querySelector('contact-phone');
+const phone=document.querySelector('#contact-phone');
 phone.addEventListener("click",()=>{
     console.log("Funkcja w budowie")
 })
