@@ -351,7 +351,7 @@ iframe{
     .hidden{
         
         opacity: 0;
-        transition: all 2s;
+        transition: all 1s;
         transform: translateX(-100%);
         filter: blur(5px);
     }
@@ -385,4 +385,25 @@ iframe{
     }
     .box-info:nth-child(6){
         transition-delay: 600ms;
+    }
+@media only screen and (max-width: 1024px) {
+        
+        .box-info:nth-child(1){
+            transition-delay: 0;
+        }
+        .box-info:nth-child(2){
+            transition-delay: 0;
+        }
+        .box-info:nth-child(3){
+            transition-delay: 0;
+        }
+        .box-info:nth-child(4){
+            transition-delay: 0;
+        }
+        .box-info:nth-child(5){
+            transition-delay: 0;
+        }
+        .box-info:nth-child(6){
+            transition-delay: 0;
+        }
     }
